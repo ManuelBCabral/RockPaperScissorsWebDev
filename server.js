@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt')
 var pool = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "Dakar2002kc!",
+  password: "Takeoutwand73!",
   database: "rockpaperscissors",
   connectionLimit:10
 });

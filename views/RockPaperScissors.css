@@ -1,0 +1,57 @@
+html {
+    background-color: grey;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+
+h2 {
+    font-size: 18px;
+    color: black;
+}
+
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.player{
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.score {
+    padding: 1px;
+    font-size: small;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.round-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    background-color: blue;
+    color: white
+}
+
+.round-btn:hover {
+    background-color: aqua;
+}

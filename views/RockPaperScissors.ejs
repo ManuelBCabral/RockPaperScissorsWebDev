@@ -10,15 +10,36 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="RockPaperScissors.css">
     </head>
     <body>
         <h1>Hello</h1>
         <h2>User name <% rows[0].username %>/h2>
         <div>
-            <a href="/highscore">HighScores</a>
+            <a href="/highscore">HighScores</a>           
         </div>
-        
+
+        <div class = "center">
+            <h1>Rock Paper Scissors</h1>
+            <div class = "container">
+                <div class = "player">
+                    <div class = "score">
+                        Player1: 0
+                    </div>
+                </div>
+                <div class = "player">
+                    <div class = "score">
+                        Computer: 0
+                    </div>
+                </div>
+            </div>
+                <div>
+                    <button class = round-btn>Rock</button>
+                    <button class = round-btn>Paper</button>
+                    <button class = round-btn>Scissors</button>
+                </div>
+            <h2>Player 1 Wins</h2>
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
