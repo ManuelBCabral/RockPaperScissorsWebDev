@@ -15,16 +15,15 @@ app.set('view-engine','ejs')
 app.use(express.static(__dirname +'/views'));
 
 app.get('/',function(req,res){
-    /*pool.query('Select * FROM user WHERE userid = 1',(err,rows)=>{
+    pool.query('Select * FROM user WHERE userid = 1',(err,rows)=>{
         if (err) throw err;
         if(!err){
             console.log(rows.length);
             res.render('RockPaperScissors.ejs',{rows});
-        }*/
-    res.render('RockPaperScissors.ejs',{name: user})
-    })
-    
-//})
+        }
+    /*res.render('RockPaperScissors.ejs',{name: user})
+    })*/
+})})
 app.get('/highscore',function(reg,res){
     pool.query('SELECT high_score.score,high_score.username FROM high_score ORDER BY score DESC',(err,result)=>{
         if (err) throw err;
